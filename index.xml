@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Programming</title><link>https://javieraespinosa.github.io/web-programming/</link><atom:link href="https://javieraespinosa.github.io/web-programming/index.xml" rel="self" type="application/rss+xml"/><description>Web Programming</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><image><url>https://javieraespinosa.github.io/web-programming/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Web Programming</title><link>https://javieraespinosa.github.io/web-programming/</link></image><item><title>Final Project</title><link>https://javieraespinosa.github.io/web-programming/final-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://javieraespinosa.github.io/web-programming/final-project/</guid><description>&lt;h3 id="description">Description&lt;/h3>
+&lt;p>As a final project you have to develop a collaborative web based music player where users (i) define the current playlist by proposing songs from a music catalogue and (ii) select the next song on the playlist by &amp;ldquo;voting&amp;rdquo;.&lt;/p>
+&lt;p>Your application has to follow a 3-tier architecture (i.e., client, server and database):&lt;/p>
+&lt;ul>
+&lt;li>The &lt;strong>client&lt;/strong> must display and manage the user interface (e.g., updating and ordering the playlist).&lt;/li>
+&lt;li>The &lt;strong>server&lt;/strong> must manage the database and handle the requests of multiple users (e.g., counting the number of votes and updating the users&amp;rsquo; interfaces to reflect the votes).&lt;/li>
+&lt;li>The &lt;strong>database&lt;/strong> must store the music catalogue composed of songs coming from &lt;a href="http://developers.deezer.com/">Deezer&lt;/a>. For instance, each entry on the catalogue may contain:
+&lt;ul>
+&lt;li>Artist and song&amp;rsquo; name&lt;/li>
+&lt;li>Photo of the artist or group&lt;/li>
+&lt;li>A preview of the song&lt;/li>
+&lt;li>The URL of the song (complete version)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="to-do">To Do&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Server-side&lt;/strong>: Develop the CRUD operations (i.e. create, read, update, delete) for managing the music catalogue.&lt;/li>
+&lt;li>&lt;strong>Client-side&lt;/strong>: Develop two types of interfaces:
+&lt;ul>
+&lt;li>An interface for managing the music catalogue (i.e., add a new song to the catalogue by using the create operation in the server-side).&lt;/li>
+&lt;li>An interface containing the current playlist. In this interface you have to offer controls (i.e., a menu, a button) for (i) adding a song from your catalogue to your playlist and (ii) voting for a song. Besides, since multiple users can &amp;ldquo;vote&amp;rdquo; for selecting the next song, you have to update the number of votes for each song dynamically using asynchronous calls to the server-side.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Your collaborative web based music player has to play songs automatically following the order of the songs in the current playlist (recall that this list is sorted using the numbers of votes of each song).&lt;/p>
+&lt;p>For developing this function use your CSS knowledge for adding some &amp;ldquo;rich experience&amp;rdquo; to the client-side of your web based music player. For instance, every time the music player plays a new song you can fade-in and fade-out the photos of the previous / new song respectively.&lt;/p>
+&lt;p>&lt;strong>BONUS&lt;/strong>&lt;/p>
+&lt;p>Implement a function for handling personalized playlists. For example, if user X is a registered user, he/she has to be able to define the playlist &amp;ldquo;Rock&amp;rdquo; containing his/her favourites rock songs. Personalized lists have to be stored in the database.&lt;/p>
+&lt;h3 id="evaluation-and-demo">Evaluation and Demo&lt;/h3>
+&lt;p>The project must be developed by groups of 3 people. Each group will be evaluated during a presentation of 20 minutes (including questions). During the presentation you have to describe the main functions of your system, the hypothesis you make and the data representation you used. Besides, you have to realize a &amp;ldquo;live demo&amp;rdquo; of your music player. The presentation has to be organized in a way that it shows the participation of every member of the group.&lt;/p>
+&lt;h3 id="example-live">Example (live)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://www.christian-schmidt.fr/ltw2/views/playlist.php">http://www.christian-schmidt.fr/ltw2/views/playlist.php&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
